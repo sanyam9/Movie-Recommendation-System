@@ -5,6 +5,8 @@ For this Recommendation System, [TMBD 5000 Movie Dataset](https://www.kaggle.com
 
 Link to the application:- https://grab-ur-popcorn.herokuapp.com/
 
+The webapp is created using **Streamlit** and the project is deployed on **Heroku**.
+
 ### Demo
 
 https://user-images.githubusercontent.com/56452679/164789479-6482859d-e31c-4fec-b49d-1ca05fae6b54.mp4
