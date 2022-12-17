@@ -3,7 +3,7 @@ A Content Based Movie Recommendation System which recommends movies similar to u
 
 For this Recommendation System, [TMBD 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?datasetId=138) is used.
 
-Link to the application:- https://grab-ur-popcorn.herokuapp.com/
+Link to the application:- https://sanyam9-movie-recommendation-system-app-tlnzxj.streamlit.app/
 
 The webapp is created using **Streamlit** and the project is deployed on **Heroku**.
 
