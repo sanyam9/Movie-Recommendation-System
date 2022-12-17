@@ -1,4 +1,4 @@
+scikit_learn==1.0.2
 streamlit
 requests
 pandas
-scikit_learn
