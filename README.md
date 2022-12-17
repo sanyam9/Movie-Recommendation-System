@@ -17,4 +17,13 @@ The posters of the similar movies are fetched using an API by TMDB.
 Link to the application:- https://sanyam9-movie-recommendation-system-app-tlnzxj.streamlit.app/
 
 
-### Demo
+## **Screenshots of the Interface**
+
+### Homepage
+
+![Home Page](https://user-images.githubusercontent.com/56452679/208244094-fd564299-16d7-4859-9b25-b410f190696c.jpg)
+
+
+### Recommendations
+
+![Suggestions](https://user-images.githubusercontent.com/56452679/208244108-0dfdbaa4-782c-4409-823c-bd1739cdc1db.jpg)
