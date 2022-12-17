@@ -48,7 +48,7 @@ movies_list = pd.Series(movies.title.values)
 #similarity = pickle.load(open('similarity.pkl', 'rb'))
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(max_features = 5000, stop_words = 'english')
-vectors = cv.fit_transform(movies_tag['tag']).toarray()
+vectors = cv.fit_transform(movies['tag']).toarray()
 from sklearn.metrics.pairwise import cosine_similarity
 similarity_matrix = cosine_similarity(vectors)
 
