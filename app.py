@@ -50,7 +50,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(max_features = 5000, stop_words = 'english')
 vectors = cv.fit_transform(movies['tag']).toarray()
 from sklearn.metrics.pairwise import cosine_similarity
-similarity_matrix = cosine_similarity(vectors)
+similarity = cosine_similarity(vectors)
 
 def get_poster(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=46021bb9e6da9b0b2e5a50dc4196528f'.format(movie_id))
